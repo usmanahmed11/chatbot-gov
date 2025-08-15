@@ -68,118 +68,48 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Content Section - Top 3 Mistakes Guide */}
+      {/* Why This Guide Matters Section */}
       <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">
-              The Top 3 Costly Government Contracting Mistakes
-            </h2>
-            <p className="text-xl text-gray-600">
-              Insider insights from MAC's 30+ years as a government approvals officer
-            </p>
-          </div>
-
-          {/* Mistake #1 */}
-          <div className="bg-white rounded-2xl p-8 mb-8 shadow-lg border border-gray-200">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
-                <span className="text-2xl font-bold text-red-600">1</span>
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">
+            Why This Guide Can Save Your Business
+          </h2>
+          <p className="text-xl text-gray-600 mb-12">
+            Government contracting mistakes cost businesses millions in lost opportunities and wasted resources. Don't let preventable errors destroy your competitive advantage.
+          </p>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-red-600">85%</span>
               </div>
-              <h3 className="text-2xl font-bold text-navy-900">Mistake #1: Generic, Template-Based Proposals</h3>
+              <h3 className="font-bold text-navy-900 mb-3">Rejection Rate</h3>
+              <p className="text-gray-600">Average proposal rejection rate due to preventable compliance and preparation mistakes</p>
             </div>
             
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-700 mb-4">
-                <strong>The Problem:</strong> Many contractors submit generic proposals that fail to address the specific needs and requirements outlined in the RFP. These template-based submissions immediately signal to evaluators that you haven't taken the time to understand their unique challenges.
-              </p>
-              <p className="text-gray-700 mb-4">
-                <strong>Why It Happens:</strong> Time constraints and limited resources often lead contractors to reuse previous proposals with minimal customization. However, government evaluators can spot these generic submissions immediately.
-              </p>
-              <p className="text-gray-700 mb-4">
-                <strong>The Cost:</strong> Generic proposals are typically eliminated in the first round of evaluation, wasting months of effort and thousands in proposal development costs.
-              </p>
-              <div className="bg-green-50 border-l-4 border-green-400 p-4 my-6">
-                <h4 className="font-bold text-green-800 mb-2">MAC's Solution:</h4>
-                <ul className="text-green-700 space-y-1">
-                  <li>• Conduct thorough requirement analysis for each RFP</li>
-                  <li>• Develop tailored technical approaches that directly address agency pain points</li>
-                  <li>• Use specific language and terminology from the solicitation</li>
-                  <li>• Demonstrate clear understanding of the agency's mission and goals</li>
-                </ul>
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-yellow-600">$50K+</span>
               </div>
-            </div>
-          </div>
-
-          {/* Mistake #2 */}
-          <div className="bg-white rounded-2xl p-8 mb-8 shadow-lg border border-gray-200">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
-                <span className="text-2xl font-bold text-red-600">2</span>
-              </div>
-              <h3 className="text-2xl font-bold text-navy-900">Mistake #2: Inadequate Cost Proposal Documentation</h3>
+              <h3 className="font-bold text-navy-900 mb-3">Average Cost</h3>
+              <p className="text-gray-600">Typical cost of a failed proposal including time, resources, and opportunity loss</p>
             </div>
             
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-700 mb-4">
-                <strong>The Problem:</strong> Contractors often submit cost proposals without proper documentation, unclear pricing structures, or fail to understand the specific contract type requirements. This leads to immediate disqualification or significant profit erosion.
-              </p>
-              <p className="text-gray-700 mb-4">
-                <strong>Why It Happens:</strong> The complexity of government cost proposal requirements is often underestimated. Different contract types (FFP, Cost-Plus, T&M) have specific documentation and pricing requirements that many contractors don't fully understand.
-              </p>
-              <p className="text-gray-700 mb-4">
-                <strong>The Cost:</strong> Poor cost proposals can result in disqualification, unrealistic pricing that leads to losses, or leaving money on the table through underpricing.
-              </p>
-              <div className="bg-green-50 border-l-4 border-green-400 p-4 my-6">
-                <h4 className="font-bold text-green-800 mb-2">MAC's Solution:</h4>
-                <ul className="text-green-700 space-y-1">
-                  <li>• Master the documentation requirements for each contract type</li>
-                  <li>• Develop comprehensive cost models with proper backup</li>
-                  <li>• Understand risk allocation and pricing strategies</li>
-                  <li>• Ensure compliance with Cost Accounting Standards (CAS)</li>
-                </ul>
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-green-600">60%</span>
               </div>
+              <h3 className="font-bold text-navy-900 mb-3">Win Rate Increase</h3>
+              <p className="text-gray-600">Average improvement for contractors who implement MAC's proven strategies</p>
             </div>
           </div>
 
-          {/* Mistake #3 */}
-          <div className="bg-white rounded-2xl p-8 mb-8 shadow-lg border border-gray-200">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
-                <span className="text-2xl font-bold text-red-600">3</span>
-              </div>
-              <h3 className="text-2xl font-bold text-navy-900">Mistake #3: Ignoring the Compliance Matrix and 'Small Print'</h3>
-            </div>
-            
-            <div className="prose prose-lg max-w-none">
-              <p className="text-gray-700 mb-4">
-                <strong>The Problem:</strong> Many contractors focus solely on the technical requirements while overlooking critical compliance requirements buried in Section L (Instructions to Offerors) and Section M (Evaluation Criteria). Missing even minor compliance requirements can result in automatic rejection.
-              </p>
-              <p className="text-gray-700 mb-4">
-                <strong>Why It Happens:</strong> The volume of requirements in government solicitations can be overwhelming. Contractors often rush through compliance requirements to focus on technical content, not realizing that non-compliance is an automatic disqualifier.
-              </p>
-              <p className="text-gray-700 mb-4">
-                <strong>The Cost:</strong> Compliance failures result in immediate rejection regardless of how strong your technical proposal might be. This represents a complete loss of proposal development investment.
-              </p>
-              <div className="bg-green-50 border-l-4 border-green-400 p-4 my-6">
-                <h4 className="font-bold text-green-800 mb-2">MAC's Solution:</h4>
-                <ul className="text-green-700 space-y-1">
-                  <li>• Create detailed compliance matrices before writing begins</li>
-                  <li>• Implement multi-layer compliance review processes</li>
-                  <li>• Understand the evaluation process from the government's perspective</li>
-                  <li>• Address every requirement explicitly with clear cross-references</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* Call to Action */}
-          <div className="bg-navy-900 rounded-2xl p-8 text-white text-center">
-            <h3 className="text-2xl font-bold mb-4">Ready to Avoid These Costly Mistakes?</h3>
-            <p className="text-xl mb-6">Get the complete guide and bonus webinar access above, or speak with MAC directly about your specific situation.</p>
+          <div className="bg-navy-900 rounded-2xl p-8 text-white">
+            <h3 className="text-2xl font-bold mb-4">Get the Complete Guide + Bonus Webinar Access</h3>
+            <p className="text-xl mb-6">Download the detailed analysis of all 3 mistakes, including specific solutions and real-world examples that have helped contractors win millions in government contracts.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="#lead-form" className="bg-gold-600 hover:bg-gold-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                Get Free Guide
+                Get Free Guide Now
               </a>
               <button className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-navy-900 px-8 py-3 rounded-lg font-semibold transition-colors" onClick={() => document.querySelector('[data-chatbot-toggle]')?.click()}>
                 Chat with MAC's Assistant
