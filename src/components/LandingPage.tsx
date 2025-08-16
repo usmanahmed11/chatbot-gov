@@ -25,27 +25,27 @@ const LandingPage = () => {
           </div>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-white/20">
-            <h2 className="text-2xl font-semibold mb-4 text-gold-400">FREE Guide Includes:</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-gold-400">What You'll Get:</h2>
             <div className="grid md:grid-cols-3 gap-6 text-left">
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-gold-400 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold mb-2">Mistake #1: Generic Proposals</h3>
-                  <p className="text-gray-300 text-sm">Why template submissions fail and how to craft winning proposals</p>
+                  <h3 className="font-semibold mb-2">Comprehensive Analysis</h3>
+                  <p className="text-gray-300 text-sm">Detailed breakdown of the most critical contracting pitfalls</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-gold-400 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold mb-2">Mistake #2: Pricing Errors</h3>
-                  <p className="text-gray-300 text-sm">Common cost proposal mistakes that lead to disqualification</p>
+                  <h3 className="font-semibold mb-2">Proven Solutions</h3>
+                  <p className="text-gray-300 text-sm">MAC's tested strategies for winning government contracts</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-gold-400 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold mb-2">Mistake #3: Compliance Gaps</h3>
-                  <p className="text-gray-300 text-sm">How to navigate the 'small print' and avoid automatic rejection</p>
+                  <h3 className="font-semibold mb-2">Real-World Examples</h3>
+                  <p className="text-gray-300 text-sm">Case studies from 30+ years of government contracting experience</p>
                 </div>
               </div>
             </div>
